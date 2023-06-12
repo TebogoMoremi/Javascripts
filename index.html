@@ -6,8 +6,14 @@
     <title>Document</title>
 </head>
 <body>
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML+="Im getting there"
+
+        }
+    </script>
     <h2>How can i help you?</h2>
     <p id="demo">hello </p>
-    <button type="submit" onclick='document.getElementById("demo").innerHTML+="Im getting there"'>Click me</button>
+    <button type="submit" onclick='myFunction()'>Click me</button>
 </body>
 </html>
