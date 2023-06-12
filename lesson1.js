@@ -1,14 +1,10 @@
-//switch case
+const petName="Fido";
+const mood="happy";
+let isHungry=false;
 
-const fruit="strawberry"
-
-switch(fruit){
-    case "strawberry":
-    case "Rasberry":
-        console.log("A "+fruit+" is red");
-        break
-    case "blueberry":
-        console.log("B "+fruit+"is blur")
-    default:
-        console.log("I dont know!")
+if(mood=="happy"&& isHungry){
+    console.log(`${petName} is a ${mood} doggo!`);
+}
+else{
+    console.log("Not happy! and not hunrgry.")
 }
